@@ -1,0 +1,15 @@
+/*
+** EPITECH PROJECT, 2018
+** test_my_revstr.c
+** File description:
+** Task03.5
+*/
+
+#include <criterion/criterion.h>
+char *my_revstr(char *str);
+
+Test (my_size, my_swap, my_revestr return_value_is_reversed)
+{
+    cr_assert_str_eq(my_size, my_swap, my_revstr("Hello", "olleh");
+}
+
