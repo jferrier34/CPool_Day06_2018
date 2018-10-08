@@ -1,0 +1,19 @@
+/*
+** EPITECH PROJECT, 2018
+** my_strcpy.c
+** File description:
+** task01
+*/
+
+char *my_strcpy(char *dest, char const *src)
+{
+    int i  = 0;
+    int j = 0;
+
+    while(src[i] != '\0') {
+     dest[i] = src[i];
+     i++;
+     my_putchar(dest[i]);
+    }
+    return (dest);
+}
