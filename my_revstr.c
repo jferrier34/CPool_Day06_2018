@@ -5,7 +5,7 @@
 ** Task03 
 */
 
-char *my_revstr(char *str);
+char *my_revstr(char *str)
 {
     int i = 0;
     int j = 0;
