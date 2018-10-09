@@ -1,11 +1,11 @@
 /*
 ** EPITECH PROJECT, 2018
-** my_strncpy.c
+** my_strcpy.c
 ** File description:
 ** Task02
 */
 
-char *my_strncpy(char *dest, char const *src, int n)
+char *my_strcpy(char *dest, char const *src, int n)
 {
     int i = 0;
 
